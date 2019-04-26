@@ -1,0 +1,129 @@
+*
+{
+    padding:0;
+    margin:0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+}
+#nav1
+{
+    height:35px;
+    background: #9e9e9e;
+    color:#2c2c2c;
+    padding:10px;
+    font-weight: bold;
+}
+
+body { background: #ddd  }
+.container
+{   background:#DDD;
+    width:1300px;
+    overflow: hidden;
+}
+/* Start header */
+  header 
+  {
+      background-image: url("../images/aheader.jpg");
+      -webkit-background-size:cover;
+      background-size:cover;
+      width:100%;
+      height: 700px;
+  }
+  header .adminAreaHeader
+  {
+      font-size: 50px;
+      color: #00bd50;
+      text-align: center;
+      padding-top:250px;
+      border-radius: 20px;
+  }
+header .adminAreaHeader span
+{
+    border:2px solid #2c2c2c;
+    border-radius: 5px;
+    padding:10px
+}
+    /* End header */
+
+/*Start side bar*/
+#main_section aside
+{
+    clear:both;
+    width:20%;
+    background: #ddd;
+    float:right;
+    color: #2c2c2c;
+    padding:10px;
+    height: 400px;
+}
+#main_section aside .category h2
+{
+    background: #626262;
+    text-align: center;
+    font-weight: bold;
+    color:#ddd;
+}
+
+#main_section aside .category ul li
+{
+    list-style: none;
+    line-height: 30px;
+    font-family:  Tahoma, Arial, serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#main_section aside .category ul li a
+{
+    text-decoration: none;
+    color :#2c2c2c;
+}
+#main_section aside .category ul li a:hover
+{
+    color: #82a8b7;
+}
+ /*End side bar*/
+/*Start main section*/
+#main_section section
+{
+    background: #8bb4c2;
+    float: right;
+    color: #fff;
+    width:80%;
+    height:auto;
+    overflow: hidden;
+}
+    /* End main section*/
+/*Start footer*/
+footer
+{
+    clear: both;
+    background: #626262;
+    height:40px;
+    padding:5px;
+    text-align: center;
+    font-weight: bold;
+    margin-top:10px;
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

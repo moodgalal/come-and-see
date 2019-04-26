@@ -1,0 +1,238 @@
+*
+{
+    padding:0;
+    margin:0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+}
+.container
+{   background:#DDD;
+    width:1300px;
+}
+/* Start header */
+header  img
+{
+    margin-left:5px;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+/* End header */
+
+/* Start nav bar */
+    #nav1
+    {
+        height:45px;
+        background: #626262;
+    }
+#nav1 ul li
+    {
+        list-style: none;
+        display: inline;
+        float: left;
+        margin-right: 10px;
+        padding:8px;
+    }
+#nav1 ul li a
+{
+    text-decoration: none;
+    color:#ddd;
+}
+#nav1 ul li a:hover
+{
+    color:#8bb4c2;
+}
+#nav2
+{
+    background: #000;
+    color:antiquewhite;
+    height:37px;
+    text-align: right;
+    padding:5px;
+    font-family: Tahoma, Arial, serif;
+    font-weight: 200;
+}
+#searchForm
+{
+    float: right;
+    margin-right:15px;
+}
+#searchForm input
+{
+    margin: 8px;
+    background: none;
+    padding:5px;
+    font-size: 15px;
+    font-weight:bold;
+}
+#searchForm input[type="text"]
+{
+    border:1px solid #8bb4c2;
+    color:#fff;
+    letter-spacing: 1px;
+    width:400px;
+}
+#searchForm input[type="submit"]
+{
+    border: 1px solid #8bb4c2;
+    color: #fff;
+}
+#searchForm input[type="submit"]:hover
+{
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+/* End nav bar */
+
+/*Start side bar*/
+#main_section aside
+{
+    clear:both;
+    width:20%;
+    background: #ddd;
+    float:left;
+    color: #2c2c2c;
+    padding:10px;
+
+}
+#main_section aside .category { margin-bottom:3px;}
+#main_section aside .category h2
+{
+    background: #626262;
+    text-align: center;
+    font-weight: bold;
+    color:#ddd;
+}
+
+#main_section aside .category ul li
+{
+    list-style: none;
+    line-height: 30px;
+    font-family:  Tahoma, Arial, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+#main_section aside .category ul li a
+{
+    text-decoration: none;
+    color :#2c2c2c;
+}
+#main_section aside .category ul li a:hover
+{
+    color:#8bb4c2;
+}
+ /*End side bar*/
+/*Start main section*/
+#main_section section
+{
+    background: #8bb4c2;
+    float: right;
+    color: #fff;
+    width:80%;
+    height:auto;
+    overflow: hidden;
+    clear: both;
+}
+    /* End main section*/
+/*Start footer*/
+footer
+{
+    clear: both;
+    background: #626262;
+    height:40px;
+    padding:5px;
+    text-align: center;
+}
+
+/* Start my account styles */
+.contact
+{
+    color:#2c2c2c;
+    background-color:#ddd;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.contact  .info
+{
+    float: left;
+    width:40%;
+    padding-right: 20px;
+}
+.contact  .info h2
+{
+    margin:60px 0 30px 40px;
+    color:#2c2c2c;
+}
+.contact  .info p
+{
+    margin:20px 0 0 50px;
+    line-height: 30px;
+}
+.contact  .info p strong {color:#2c2c2c}
+.contact  .form
+{
+    float: left;
+    width:50%;
+
+    margin:60px  0 5px 60px;
+}
+.contact .form form label
+{
+    display: block;
+    margin:20px 0 7px 0;
+    color:#2c2c2c;
+    font-weight: 600;
+}
+.contact  .form input[type="text"]
+{
+    width:80%;
+    background-color:#4B5557;
+    border:0;
+    color:whitesmoke;
+    padding:3px;
+    margin-left: 5px;
+}
+::-webkit-input-placeholder{color:gray}
+::-moz-placeholder{color:gray}
+:-o-placeholder{color:gray}
+:-ms-input-placeholder{color:gray}
+.contact .container .form textarea
+{
+    height: 300px;
+    margin-bottom: 10px;
+    width:80%;
+    background-color:#4B5557;
+    border:0;
+    color:#fff;
+    padding:5px;
+    border-bottom: 5px solid #252F31;
+}
+.contact  .form input[type="submit"]
+{
+    border:0;
+    padding:10px 20px ;
+    background-color:#191E22;
+    color:#fff;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.contact  .form input[type="submit"]:hover{color:#6eb6de}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

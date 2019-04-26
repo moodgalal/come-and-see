@@ -1,0 +1,58 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background: #ddd;
+    color:#2c2c2c;
+}
+form {  margin-top:10px;}
+h3
+{
+    text-align: center;
+    margin:10px;
+}
+table
+{
+    text-align: center;
+    border: 1px solid #000;
+    background:lightblue;
+    width:900px;
+    margin:auto;
+}
+table td
+{
+    border:1px solid ;
+    padding:3px;
+}
+label { font-weight: bold}
+input[type='text']
+{
+    width:98%;
+    background: #ddd;
+    padding:2px;
+    font-family: "Comic Sans MS", Tahoma, Arial, serif
+}
+input[type='submit']
+{
+    background: none;
+    padding:5px;
+    font-size:15px;
+    color: #5683e6;
+    border:2px groove lightblue;
+    font-weight:bold;
+    margin:15px 0 20px 45%;
+}
+input[type='submit']:hover {
+    color: #ddd;
+    background: #5683e6;
+    cursor: pointer;
+}
+select
+{
+    width:100%;
+    padding:5px;
+    background: #ddd;
+}
